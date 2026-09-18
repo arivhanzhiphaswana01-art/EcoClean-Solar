@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Quote - EcoClean Solar Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header with logo and main navigation -->
+    <header>
+        <div class="logo">EcoClean Solar</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services & Pricing</a>
+            <a href="guides.html">Solar Care Hub</a>
+            <a href="contact.html" class="active">Request Quote</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page banner -->
+        <section class="page-banner">
+            <h1>Request an Instant Estimate</h1>
+            <p>Complete the form below to receive a personalized maintenance quote within 24 hours.</p>
+        </section>
+
+        <div class="container">
+
+            <!-- Contact information -->
+            <section class="info-box">
+                <h2>Contact and Operational Hours</h2>
+                <p><strong>Customer Support:</strong> +27 (0) 11 000 0000</p>
+                <p><strong>WhatsApp:</strong> +27 (0) 82 000 0000</p>
+                <p><strong>Email:</strong> support@ecocleansolar.co.za</p>
+                <p><strong>Service Hours:</strong><br>Monday to Friday: 07:00 to 17:30<br>Saturday: 08:00 to 14:00</p>
+                <p><strong>Coverage Areas:</strong> Residential suburbs, industrial developments, and regional agricultural sites.</p>
+            </section>
+
+            <!-- Quote request form -->
+            <section class="form-box">
+                <h2>System Details</h2>
+                <form action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required placeholder="Enter full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactnum">Phone or WhatsApp Number</label>
+                        <input type="tel" id="contactnum" name="contactnum" required placeholder="Enter contact number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="system-type">Installation Type</label>
+                        <select id="system-type" name="system-type">
+                            <option value="residential">Residential Rooftop</option>
+                            <option value="commercial">Commercial or Industrial Park</option>
+                            <option value="agricultural">Agricultural or Ground Mount</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="panels">Estimated Number of Panels</label>
+                        <input type="number" id="panels" name="panels" placeholder="e.g. 12">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-cleaned">Last Time Cleaned</label>
+                        <select id="last-cleaned" name="last-cleaned">
+                            <option value="never">Never or Brand New</option>
+                            <option value="6months">Within last 6 months</option>
+                            <option value="year">Over 1 year ago</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Additional Details or Address</label>
+                        <textarea id="notes" name="notes" rows="3" placeholder="Mention roof height, pigeon issues, or access instructions"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Quote Request</button>
+
+                </form>
+            </section>
+
+        </div>
+
+        <!-- Map section -->
+        <section class="map-section">
+            <div class="map-container">
+                <h2>Regional Operations Hub</h2>
+                <p>Dispatching specialized cleaning crews across Gauteng and surrounding industrial zones.</p>
+                <iframe 
+                    class="map-frame" 
+                    src="https://maps.google.com/maps?q=Gauteng,South%20Africa&t=&z=10&ie=UTF8&iwloc=&output=embed" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 EcoClean Solar Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
