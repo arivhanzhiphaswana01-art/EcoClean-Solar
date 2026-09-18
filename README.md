@@ -19,12 +19,7 @@ Services & Pricing - services.html
 Solar Care Hub - guides.html
 Request Quote - contact.html
 
-## Sitemap
-Home
-About Us
-Services & Pricing
-Solar Care Hub
-Request Quote
+
 
 ## Folder Structure
 css/ (style.css)
@@ -40,9 +35,15 @@ README.md
 ## Responsive Design
 The site uses two breakpoints.
 
-Tablet: 768px and below. Navigation wraps, font sizes reduce, layout adjusts.
+Tablet
+<img width="940" height="819" alt="image" src="https://github.com/user-attachments/assets/5f734d74-6ae6-42e3-b371-29e7a9b6eb46" />
 
-Mobile: 480px and below. Everything stacks in one column, navigation stacks, font sizes get smaller, images scale down.
+Mobile
+<img width="940" height="817" alt="image" src="https://github.com/user-attachments/assets/18d7a735-90d6-4702-a2ce-b5f30f8c72ea" />
+
+DESKTOP
+<img width="940" height="451" alt="image" src="https://github.com/user-attachments/assets/0fb654ac-362d-4840-81ec-158cd002919a" />
+
 
 ## Changelog
 
